@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+
+  "key": {
+    "#": {
+      "item": "primeiro-mod:special_stick"
+    }
+  },
+
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+
+  "result": {
+    "count": 1,
+    "id": "primeiro-mod:vs_code_block"
+  }
+}
