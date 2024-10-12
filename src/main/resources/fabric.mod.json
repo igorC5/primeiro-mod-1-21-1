@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "primeiro-mod",
+	"version": "${version}",
+	"name": "Primeiro Mod",
+	"description": "Esse é o meu primeiro mod, que foda",
+	"authors": [
+		"Igor Candido"
+	],
+	"contact": {
+		"homepage": "https://github.com/igorC5",
+		"sources": "https://github.com/igorC5"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/primeiro-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.igor.primeiromod.PrimeiroMod"
+		],
+		"fabric-datagen": [
+			"net.igor.primeiromod.PrimeiroModDataGenerator"
+		],
+		"client": [
+			"net.igor.primeiromod.PrimeiroModClient"
+		]
+	},
+	"mixins": [
+		"primeiro-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
